@@ -5,7 +5,9 @@ Copyright (c) 2026 Xeo Studio. All rights reserved.
 1. Definitions.
    "Licensor" means Xeo Studio and its owner(s).
    "Customer" means a person or entity with an active, paid service agreement
-   with Licensor at the time of use.
+   with Licensor at the time of use, or anyone Licensor has authorized in
+   writing (including by email). Such authorization lasts until Licensor
+   revokes it in writing or the stated term ends, whichever comes first.
    "Software" means this repository's contents, including the skill
    definitions, checklists, and documentation.
 
