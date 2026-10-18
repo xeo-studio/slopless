@@ -84,8 +84,9 @@ real emphasis or the writer's spoken rhythm.
 
 - **Setup before the point.** "Here's the thing," "Let's be honest," "The honest answer:",
   "What most people miss." Delete the wind-up; state the point.
-- **Empty reversals.** "It's not X. It's Y." / "We don't just X, we Y." Say Y, unless the
-  contrast itself is the message.
+- **Empty reversals.** "It's not X. It's Y." / "We don't just X, we Y." The test: does the
+  reader actually believe X? Correcting a real misconception earns the contrast. If X was
+  invented for the seesaw rhythm, say Y plainly.
 - **Colon drama.** "The best part: it compounds." Make it a plain sentence. Colons are for
   lists, labels, and quotes.
 - **Importance puffery.** "Marks a milestone," "a testament to," "plays a vital role,"
@@ -103,9 +104,12 @@ real emphasis or the writer's spoken rhythm.
 - **Synonym cycling.** The firm, the practice, the office, the team, all meaning one company
   in one paragraph. Pick the clear word and repeat it.
 - **Stacked punchy fragments.** "Fast. Fair. Effective." Complete sentences, varied rhythm.
+  One earned fragment per page is an accent and may stay; three in a row is a brochure.
   (A client's own trademark tagline is exempt; flag it, don't delete it.)
 - **Mic-drop endings and recaps.** No fake-profound closing metaphor, no "In conclusion"
-  paragraph restating the page. End on the last concrete point or the next action.
+  paragraph restating the page. Do not rewrite the kicker into a better metaphor; delete it
+  and end on the last concrete point or the next action. A callback to a specific fact or
+  image from earlier in the piece is fine; imported gravitas is not.
 - **Identical shapes.** Three sections in a row with the same sentence pattern, every H2
   phrased as the same question form, every paragraph exactly three sentences. Vary or merge.
 - **Metronome sentences.** Human writing mixes short sentences with long ones; machine prose

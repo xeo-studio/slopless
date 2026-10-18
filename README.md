@@ -76,6 +76,32 @@ Audit without rewriting; returns named patterns with quotes and fixes:
 /slopless is this slop? (your draft)
 ```
 
+## The slop it catches
+
+1. **Binary contrasts.** "It's not luck. It's strategy."
+2. **Throat-clearing.** "Here's the thing," "Let's be honest," "The honest answer:"
+3. **Colon drama.** "The best part: it compounds."
+4. **Importance puffery.** "marks a pivotal moment," "a testament to"
+5. **Participial tails.** "...highlighting our commitment to excellence"
+6. **Hidden verbs.** "made a decision" instead of "decided"
+7. **Unnamed authority.** "experts agree," "studies show"
+8. **Synonym cycling.** "the firm... the practice... the office," all one company
+9. **Dramatic fragments.** "Fast. Fair. Effective."
+10. **Mic-drop endings.** "In the end, it's not about houses. It's about stories."
+11. **Metronome rhythm.** Every sentence 15 to 25 words, forever.
+12. **Templatic empathy.** "We understand how stressful this can be."
+13. **Forced sunshine.** A bad fact instantly neutralized with "...but don't worry!"
+14. **Buzzwords.** Delve, seamless, elevate, robust, transformative, and friends.
+
+And the checks generic de-sloppers skip:
+
+- **Invented facts.** Stats, testimonials, and credentials no one can back up get flagged
+  `[VERIFY]`, and markers never ship to production.
+- **Copy-paste localness.** A city page that survives a find-and-replace to another city fails.
+- **Quote integrity.** Client quotes are never reworded, and appear once per page.
+- **Reader's-world examples.** Scenarios the audience would recognize from their own week.
+- **Em dashes.** Zero.
+
 ## Grounded in research
 
 The rules are not vibes. The banned-word list, the participial-tail and nominalization
