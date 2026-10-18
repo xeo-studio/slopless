@@ -1,0 +1,34 @@
+{
+  "name": "slopless",
+  "version": "1.0.0",
+  "description": "Writes, edits, and audits marketing and SEO content so it reads like a knowledgeable person wrote it, and so every claim on the page is true.",
+  "author": {
+    "name": "Xeo Studio",
+    "url": "https://getxeo.com"
+  },
+  "homepage": "https://github.com/xeo-studio/slopless",
+  "repository": "https://github.com/xeo-studio/slopless",
+  "license": "Xeo Studio Customer License",
+  "keywords": [
+    "writing",
+    "editing",
+    "SEO",
+    "content quality",
+    "AI slop"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Slopless",
+    "shortDescription": "Human-sounding, factually honest content",
+    "longDescription": "Slopless writes, edits, and audits content against research-backed signatures of machine writing: buzzword lists from corpus studies, participial-tail and nominalization patterns, metronome sentence rhythm, templatic empathy and emotional flattening. It adds factual-integrity rules generic de-sloppers do not have: never fabricate statistics or testimonials, [VERIFY] markers for unconfirmed facts, YMYL care for legal, medical, and financial topics, and a local-specificity test for city pages. Three modes: write, edit (minimum change, voice preserved), and audit (named patterns with quotes, no rewrite).",
+    "developerName": "Xeo Studio",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Edit",
+      "Audit",
+      "Preserve voice"
+    ],
+    "websiteURL": "https://getxeo.com"
+  }
+}

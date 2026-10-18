@@ -1,0 +1,4 @@
+interface:
+  display_name: "/slopless"
+  short_description: "Write, edit, and audit content so it reads human and every claim is true."
+  default_prompt: "Use $slopless to remove machine patterns from this draft while preserving my voice, and flag any claim that needs verification."

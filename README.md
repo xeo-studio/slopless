@@ -30,21 +30,51 @@ enforces rules generic de-sloppers don't:
 
 ## Install
 
-Project-level (loads for one repo):
+The quickest way: paste this into Claude Code, Codex, Cursor, or your coding agent of choice:
+
+```text
+Install the /slopless skill from https://github.com/xeo-studio/slopless
+```
+
+Or install with the skills CLI (supports Claude Code, Codex, Cursor, and more):
+
+```sh
+npx skills add xeo-studio/slopless --skill slopless
+```
+
+Manual install for Claude Code, project-level (loads for one repo):
 
 ```bash
-mkdir -p .claude/skills
-cp -r skills/slopless .claude/skills/
+git clone https://github.com/xeo-studio/slopless /tmp/slopless
+mkdir -p .claude/skills && cp -r /tmp/slopless/skills/slopless .claude/skills/
 ```
 
 Global (all projects): copy to `~/.claude/skills/` instead.
 
+Any other model (ChatGPT Projects, Gemini, a custom GPT): paste the contents of
+[`skills/slopless/SKILL.md`](skills/slopless/SKILL.md) into the system prompt or custom
+instructions, and [`eval.md`](skills/slopless/eval.md) alongside it if the tool allows a
+second file. The skill is plain instructions; nothing about it requires a specific model.
+
 ## Use
 
-- Write: ask Claude to draft content; the skill applies automatically and self-checks
-  against `skills/slopless/eval.md`.
-- Edit: "de-slop this draft" / `/slopless` with a draft.
-- Audit: "does this page read as AI?" returns named patterns with quotes and fixes, no rewrite.
+Write new content under the rules:
+
+```text
+/slopless write a service page for a mobile dog grooming business in Austin
+```
+
+Edit a draft (minimum change, voice preserved, "What changed" included):
+
+```text
+/slopless (your draft)
+```
+
+Audit without rewriting; returns named patterns with quotes and fixes:
+
+```text
+/slopless is this slop? (your draft)
+```
 
 ## Grounded in research
 
