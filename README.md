@@ -12,9 +12,10 @@ you. Keep writing. Keep telling people what you have seen. Nobody else can.
 
 ---
 
-A [Claude Code](https://claude.com/claude-code) skill that writes, edits, and audits marketing
-and SEO content so it reads like a knowledgeable person wrote it, and so every claim on the
-page is true.
+A skill that writes, edits, and audits marketing and SEO content so it reads like a
+knowledgeable person wrote it, and so every claim on the page is true. Works with ChatGPT,
+Claude, [Claude Code](https://claude.com/claude-code), Codex, Cursor, or any AI tool that
+accepts instructions; it is plain language, not code.
 
 Built for agencies publishing real businesses' websites. Beyond the usual anti-AI-slop
 editing (buzzwords, setup phrases, colon drama, importance puffery, mic-drop endings), it
